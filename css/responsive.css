@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/*----------------
+------共通---------
+------------------
+*/
+@media (max-width: 768px) {
+  .sp {
+    display: block;
+  }
+  .sp-none {
+    display: none;
+  }
+  .member-service-details {
+    padding-bottom: 50px;
+  }
+  .member-info-right {
+    margin-left: 0;
+    margin: 30px auto 0;
+  }
+  .member-price .price-middle {
+    font-size: 28px;
+  }
+  .member-price .price-big {
+    font-size: 42px;
+  }
+  .section-title {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  .section-title::before {
+    height: 2px;
+  }
+  .section-text {
+    margin-top: 30px;
+  }
+  .join-btn {
+    width: 300px;
+    height: 80px;
+    font-size: 18px;
+  }
+  .join-btn a {
+    margin-right: 5px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .service-title {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .service-title p {
+    font-size: 36px;
+  }
+  .service-title h2 {
+    font-size: 18px;
+  }
+  .service-box-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 510px) {
+  .service-title h2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .sp-min {
+    display: block;
+  }
+  .sp-min-none {
+    display: none;
+  }
+}
+
+/*----------------
+------MV---------
+------------------
+*/
+@media (max-width: 768px) {
+  .mv-inner {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .mv-text p {
+    font-size: 28px;
+    margin: 0;
+  }
+  .mv-text p:nth-child(2) {
+    margin-bottom: 0px;
+  }
+  .top-text {
+    padding-top: 80px;
+    font-size: 28px;
+  }
+  .top-text ul {
+    margin-bottom: 0;
+  }
+  .top-text li:first-child {
+    margin-bottom: 80px;
+  }
+  .top-text p {
+    border: solid 1px #e60012;
+    padding: 0 5px;
+  }
+  .top-text .color-red {
+    border: none;
+    padding: 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .mv-title {
+    font-size: 16px;
+    padding: 0 10px;
+    height: 60px;
+  }
+  .mv-text p {
+    font-size: 20px;
+  }
+  .top-text {
+    padding-top: 40px;
+    font-size: 18px;
+  }
+  .top-text li:first-child {
+    margin-bottom: 40px;
+  }
+}
+
+/*----------------
+  ------会員向けサービス---------
+  ------------------
+  */
+@media (max-width: 768px) {
+  .member-service {
+    padding: 70px 0 50px;
+  }
+  .member-service-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .member-info-left {
+    width: 100%;
+  }
+  .member-info-left img {
+    width: 100%;
+  }
+  .member-price {
+    font-size: 18px;
+  }
+  .member-price span {
+    font-size: 24px;
+  }
+}
+
+/*----------------
+------メールマガジン---------
+------------------
+*/
+@media (max-width: 1024px) {
+  .detail-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .magazine {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .service2-wrap {
+    padding-bottom: 30px;
+  }
+  .magazine-inner {
+    margin-top: 20px;
+  }
+  .magazine-title {
+    font-size: 18px;
+  }
+  .magazine-title-sub {
+    padding-top: 35px;
+    padding-bottom: 20px;
+  }
+  .magazine-title-sub h3 {
+    font-size: 16px;
+  }
+  .magazine-title-sub p {
+    font-size: 13px;
+  }
+  .magazine-list-title {
+    font-size: 16px;
+  }
+  .magazine-list-text {
+    line-height: 1.5;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .magazine-inner img {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+/*----------------
+------映像授業---------
+------------------
+*/
+@media (max-width: 768px) {
+  .service-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .service-media-text {
+    padding-bottom: 30px;
+  }
+  .service-box-image {
+    width: 100%;
+    margin: 0;
+  }
+  .service-box-image img {
+    width: 100%;
+  }
+  .service-box-text {
+    margin-top: 20px;
+  }
+  .service-box-text h3 {
+    font-size: 18px;
+  }
+  .service-box-text ul {
+    font-size: 14px;
+  }
+  .service-box-text p {
+    font-size: 14px;
+  }
+}
+
+/*----------------
+------イベントのご紹介・お知らせ・成長記録の共有---------
+------------------
+*/
+@media (max-width: 1024px) {
+  .service-2column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .column-box {
+    max-width: 100%;
+    width: 100%;
+    padding: 75px 10px 0;
+  }
+  .column-box img {
+    margin-top: 40px;
+    width: 100%;
+  }
+  #service5 {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .column-box-title p {
+    font-size: 36px;
+  }
+  .column-box-title h2 {
+    font-size: 18px;
+  }
+  .column-box img {
+    margin: 0;
+  }
+}
+
+/*----------------
+------コンテンツ下CTA---------
+------------------
+*/
+@media (max-width: 768px) {
+  .contents-under {
+    padding-bottom: 100px;
+    padding-top: 60px;
+  }
+  .contents-under .join-btn {
+    margin-top: 40px;
+  }
+}
+
+/*----------------
+------フッター---------
+------------------
+*/
+@media (max-width: 768px) {
+  .footer_sitelink {
+    padding: 15px 15px 0;
+  }
+  .footer_sitelink a {
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+  .footer_company {
+    padding: 20px;
+  }
+  .footer_company a {
+    width: 200px;
+  }
+  .footer_company_list {
+    width: 100%;
+    margin-bottom: 15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .footer_company_listitem {
+    width: 25%;
+    margin-bottom: 15px;
+    padding: 0 2.5%;
+  }
+  .footer_company_listitem a {
+    width: auto;
+  }
+  .footer_company_copyright p {
+    font-size: 11px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
